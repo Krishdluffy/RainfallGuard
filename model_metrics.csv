@@ -1,0 +1,44 @@
+task,model,split,metric,value,threshold,train_cut_target_day_num,validation_cut_target_day_num
+regression,RandomForestRegressor,validation,mae,17.776905871689735,,19608,19893
+regression,RandomForestRegressor,validation,rmse,26.089225870800245,,19608,19893
+regression,RandomForestRegressor,validation,r2,0.014283207220542327,,19608,19893
+regression,GBTRegressor,validation,mae,17.910144121097133,,19608,19893
+regression,GBTRegressor,validation,rmse,26.778618141378637,,19608,19893
+regression,GBTRegressor,validation,r2,-0.03849902821922191,,19608,19893
+regression,RandomForestRegressor,test,mae,18.916200544922347,,19608,19893
+regression,RandomForestRegressor,test,rmse,29.780941201663406,,19608,19893
+regression,RandomForestRegressor,test,r2,0.14080615452437006,,19608,19893
+regression,Baseline: today's rainfall,test,mae,21.964172958133144,,19608,19893
+regression,Baseline: today's rainfall,test,rmse,36.09451512297869,,19608,19893
+regression,Baseline: today's rainfall,test,r2,-0.2621086502514405,,19608,19893
+regression,Baseline: training mean,test,mae,20.61254848746025,,19608,19893
+regression,Baseline: training mean,test,rmse,32.46524014715853,,19608,19893
+regression,Baseline: training mean,test,r2,-0.0210606948728862,,19608,19893
+classification,RandomForestClassifier,validation,accuracy,0.6205821205821206,0.4,19608,19893
+classification,RandomForestClassifier,validation,precision,0.09556786703601108,0.4,19608,19893
+classification,RandomForestClassifier,validation,recall,0.4726027397260274,0.4,19608,19893
+classification,RandomForestClassifier,validation,f1,0.15898617511520738,0.4,19608,19893
+classification,RandomForestClassifier,validation,roc_auc,0.5898470739102816,0.4,19608,19893
+classification,RandomForestClassifier,validation,pr_auc,0.09944076092682799,0.4,19608,19893
+classification,RandomForestClassifier,validation,specificity,0.6327334083239595,0.4,19608,19893
+classification,GBTClassifier,validation,accuracy,0.42255717255717257,0.25,19608,19893
+classification,GBTClassifier,validation,precision,0.0909861542808703,0.25,19608,19893
+classification,GBTClassifier,validation,recall,0.7351598173515982,0.25,19608,19893
+classification,GBTClassifier,validation,f1,0.16193110384712095,0.25,19608,19893
+classification,GBTClassifier,validation,roc_auc,0.5906213778072263,0.25,19608,19893
+classification,GBTClassifier,validation,pr_auc,0.09493315047015792,0.25,19608,19893
+classification,GBTClassifier,validation,specificity,0.3968878890138733,0.25,19608,19893
+classification,LogisticRegression,validation,accuracy,0.6126126126126126,0.45,19608,19893
+classification,LogisticRegression,validation,precision,0.10008896797153025,0.45,19608,19893
+classification,LogisticRegression,validation,recall,0.5136986301369864,0.45,19608,19893
+classification,LogisticRegression,validation,f1,0.16753536857781087,0.45,19608,19893
+classification,LogisticRegression,validation,roc_auc,0.5886128531878723,0.45,19608,19893
+classification,LogisticRegression,validation,pr_auc,0.10194924218056589,0.45,19608,19893
+classification,LogisticRegression,validation,specificity,0.6207349081364829,0.45,19608,19893
+classification,LogisticRegression,test,accuracy,0.6017501715854495,0.45,19608,19893
+classification,LogisticRegression,test,precision,0.16974726518294983,0.45,19608,19893
+classification,LogisticRegression,test,recall,0.7894736842105263,0.45,19608,19893
+classification,LogisticRegression,test,f1,0.279416330332195,0.45,19608,19893
+classification,LogisticRegression,test,roc_auc,0.7647516232574595,0.45,19608,19893
+classification,LogisticRegression,test,pr_auc,0.2652835388931328,0.45,19608,19893
+classification,LogisticRegression,test,specificity,0.5813997717763408,0.45,19608,19893
